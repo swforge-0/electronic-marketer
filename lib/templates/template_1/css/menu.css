@@ -1,0 +1,53 @@
+.menu-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 101px;
+    z-index: 1000;
+    width: 300px;
+    display: none;
+    background-color: #000;
+}
+
+.menu-1 .item {
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.menu-1-but-block {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1001;
+}
+
+.menu-1-but {
+    width: 25px;
+    height: 25px;
+    top: 35px;
+    left: calc(50% - 13px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menu-1-but .line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.menu-1-but-close {
+    background-image: url("../img/close-1.png");
+    background-size: contain;
+    background-position: center center;
+}
+
+.menu-1-but-close .line {
+    display: none;
+}

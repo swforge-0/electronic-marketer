@@ -49,5 +49,16 @@
         <div class="general">
             <div id="dialog_1"></div>
             <?if($auth->test()):?>
-                
+                <div class="menu-1">
+                    <a href="/general/">
+                        <div class="item but-1">
+                            Главная
+                        </div>
+                    </a>
+                    <a href="/index.php?exit=yes">
+                        <div class="item but-1">
+                            Выход
+                        </div>
+                    </a>
+                </div>
             <?endif;?>
