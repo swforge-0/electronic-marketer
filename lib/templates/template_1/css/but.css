@@ -1,0 +1,18 @@
+.form_but_1 {
+    display: block;
+    width: fit-content;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+.form_but_1:hover {
+    border-bottom: 1px solid #000;
+}
