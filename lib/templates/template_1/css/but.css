@@ -8,6 +8,10 @@
     background-color: #000;
 }
 
+.but-1.ended {
+    border-bottom: 1px solid #fff;
+}
+
 .but-1:hover {
     color: #000;
     background-color: #fff;

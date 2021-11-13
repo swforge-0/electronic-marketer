@@ -56,7 +56,7 @@
                         </div>
                     </a>
                     <a href="/index.php?exit=yes">
-                        <div class="item but-1">
+                        <div class="item but-1 ended">
                             Выход
                         </div>
                     </a>
