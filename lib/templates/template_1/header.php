@@ -17,6 +17,8 @@
     //Массив соответствия надписей заголовков и страниц
     $arTitle=[
         "general"=>"Главная",
+        "trends"=>"Анализатор трендов",
+        "agregators"=>"База агрегаторов",
     ];
 ?>
 <html>
@@ -55,10 +57,27 @@
                             Главная
                         </div>
                     </a>
+                    <a href="/trends/">
+                        <div class="item but-1">
+                            Анализатор трендов
+                        </div>
+                    </a>
+                    <a href="/agregators/">
+                        <div class="item but-1">
+                            База агрегаторов
+                        </div>
+                    </a>
                     <a href="/index.php?exit=yes">
                         <div class="item but-1 ended">
                             Выход
                         </div>
                     </a>
+                </div>
+                <div class="menu-1-but-block">
+                    <div id="menu-1-but" class="menu-1-but menu-1-but-open">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
                 </div>
             <?endif;?>

@@ -4,7 +4,7 @@
     class general {
         //Подгрузка js и css
         public static function cssJs($arSettings) {
-            $version="32";
+            $version="38";
             $lib_catalog=$arSettings["template_path"].$arSettings["template_id"]."/";
             $lib_catalog_full=$_SERVER["DOCUMENT_ROOT"].'/'.$lib_catalog;
             $ar_type[0]="css";
